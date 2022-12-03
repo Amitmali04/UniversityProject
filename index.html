@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+
+<body>
+
+    <section class="header">
+        <nav>
+            <h1 class="p-name">Demo Project</h1>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="home">HOME</a></li>
+                    <li><a href="about">ABOUT</a></li>
+                    <li><a href="course">COURSE</a></li>
+                    <li><a href="blog">BLOG</a></li>
+                    <li><a href="contact"> CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <div class="text-box" id="textbox">
+            <h1>World's Biggest Univwesity</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, ipsa sit! Maiores accusamus ullam
+                quas nihil quia at doloremque repudiandae laudantium dicta deleniti. Reiciendis ipsa quos dolores, iure
+                praesentium dolor!</p>
+            <br>
+            <a href="" class="hero-btn">Hello Google</a>
+        </div>
+    </section>
+
+    <!-- Cousers -->
+    <section class="courses">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicin</p>
+
+        <div class="row">
+            <div class="couser-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam </p>
+            </div>
+
+            <div class="couser-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam </p>
+            </div>
+
+
+            <div class="couser-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam </p>
+
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="img/london.png" alt="">
+                <div class="layer">
+                    <h3>London</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="img/newyork.png" alt="">
+                <div class="layer">
+                    <h3>New York</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="img/washington.png" alt="">
+                <div class="layer">
+                    <h3>Washington</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="facilities">
+
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam </p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="img/basketball.png" alt="">
+                <h3>gdjfgkdjgld</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam </p>
+
+            </div>
+
+            <div class="facilities-col">
+                <img src="img/library.png" alt="">
+                <h3>gdjfgkdjgld</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam </p>
+
+            </div>
+
+            <div class="facilities-col">
+                <img src="img/certificate.jpg" alt="">
+                <h3>gdjfgkdjgld</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam </p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="testimonials">
+        <h1>Testimonials</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam </p>
+        <div class="row">
+
+            <div class="testimonials-col">
+                <img src="img/user1.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi unde sed deleniti. Quos
+                        quia, optio eius molestias deserunt deleniti id.</p>
+                    <h3>ABC</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+
+                </div>
+            </div>
+
+            <div class="testimonials-col">
+                <img src="img/user2.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi unde sed deleniti. Quos
+                        quia, optio eius molestias deserunt deleniti id.</p>
+                    <h3>ABC</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="cta">
+        <h1>Enroll for our various online Courses <br>Anywhere from the world</h1>
+        <a href="" class="hero-btn">CONTACT</a>
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo esse et beatae, optio culpa laborum.</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showmenu() {
+            navLinks.style.right = "0";
+            $('#textbox').hide();
+
+        }
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
